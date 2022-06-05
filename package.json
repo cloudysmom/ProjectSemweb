@@ -1,0 +1,30 @@
+{
+  "name": "libraries-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "d3-sparql": "^2.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "next": "12.1.6",
+    "nextjs-progressbar": "^0.0.14",
+    "rdf-ext": "^2.0.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^4.3.1",
+    "sparql-http-client": "^2.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
